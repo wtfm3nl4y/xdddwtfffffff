@@ -15,7 +15,7 @@
     "postdeploy": "bundle exec rake bootstrap"
   },
   "env": {
-    "SECRET_TOKEN": {
+    "BOT_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
       "generator": "secret"
     },
